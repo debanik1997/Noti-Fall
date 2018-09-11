@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392ED9AA2144C6D600CC5F3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED9A92144C6D600CC5F3D /* HomeViewController.swift */; };
+		392ED9AD2144D96D00CC5F3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392ED9AC2144D96D00CC5F3D /* CoreLocation.framework */; };
+		392ED9AF2144E35800CC5F3D /* FallCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED9AE2144E35800CC5F3D /* FallCount.swift */; };
+		392ED9B12144E8C900CC5F3D /* FallDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392ED9B02144E8C900CC5F3D /* FallDetect.swift */; };
+		392ED9B32144FD0200CC5F3D /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 392ED9B22144FD0200CC5F3D /* bell.mp3 */; };
+		392ED9B521450D9200CC5F3D /* logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ED9B421450D9200CC5F3D /* logo4.png */; };
+		3982050D214389E900F3FBA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982050C214389E900F3FBA7 /* AppDelegate.swift */; };
+		3982050F214389E900F3FBA7 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982050E214389E900F3FBA7 /* TrackViewController.swift */; };
+		39820512214389E900F3FBA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39820510214389E900F3FBA7 /* Main.storyboard */; };
+		39820515214389E900F3FBA7 /* Noti_Fall2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39820513214389E900F3FBA7 /* Noti_Fall2.xcdatamodeld */; };
+		39820517214389EA00F3FBA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39820516214389EA00F3FBA7 /* Assets.xcassets */; };
+		3982051A214389EA00F3FBA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39820518214389EA00F3FBA7 /* LaunchScreen.storyboard */; };
+		39820525214389EA00F3FBA7 /* Noti_Fall2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39820524214389EA00F3FBA7 /* Noti_Fall2Tests.swift */; };
+		39820530214389EA00F3FBA7 /* Noti_Fall2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982052F214389EA00F3FBA7 /* Noti_Fall2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39820521214389EA00F3FBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39820501214389E900F3FBA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39820508214389E900F3FBA7;
+			remoteInfo = "Noti-Fall2";
+		};
+		3982052C214389EA00F3FBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39820501214389E900F3FBA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39820508214389E900F3FBA7;
+			remoteInfo = "Noti-Fall2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392ED9A92144C6D600CC5F3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		392ED9AC2144D96D00CC5F3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		392ED9AE2144E35800CC5F3D /* FallCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallCount.swift; sourceTree = "<group>"; };
+		392ED9B02144E8C900CC5F3D /* FallDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallDetect.swift; sourceTree = "<group>"; };
+		392ED9B22144FD0200CC5F3D /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bell.mp3; path = "Noti-Fall2/bell.mp3"; sourceTree = SOURCE_ROOT; };
+		392ED9B421450D9200CC5F3D /* logo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo4.png; path = ../../../../Downloads/logo4.png; sourceTree = "<group>"; };
+		39820509214389E900F3FBA7 /* Noti-Fall2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noti-Fall2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3982050C214389E900F3FBA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3982050E214389E900F3FBA7 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		39820511214389E900F3FBA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39820514214389E900F3FBA7 /* Noti_Fall2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noti_Fall2.xcdatamodel; sourceTree = "<group>"; };
+		39820516214389EA00F3FBA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39820519214389EA00F3FBA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3982051B214389EA00F3FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39820520214389EA00F3FBA7 /* Noti-Fall2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noti-Fall2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39820524214389EA00F3FBA7 /* Noti_Fall2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noti_Fall2Tests.swift; sourceTree = "<group>"; };
+		39820526214389EA00F3FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3982052B214389EA00F3FBA7 /* Noti-Fall2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noti-Fall2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3982052F214389EA00F3FBA7 /* Noti_Fall2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noti_Fall2UITests.swift; sourceTree = "<group>"; };
+		39820531214389EA00F3FBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39820506214389E900F3FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392ED9AD2144D96D00CC5F3D /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3982051D214389EA00F3FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39820528214389EA00F3FBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392ED9AB2144D96C00CC5F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				392ED9AC2144D96D00CC5F3D /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39820500214389E900F3FBA7 = {
+			isa = PBXGroup;
+			children = (
+				3982050B214389E900F3FBA7 /* Noti-Fall2 */,
+				39820523214389EA00F3FBA7 /* Noti-Fall2Tests */,
+				3982052E214389EA00F3FBA7 /* Noti-Fall2UITests */,
+				3982050A214389E900F3FBA7 /* Products */,
+				392ED9AB2144D96C00CC5F3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3982050A214389E900F3FBA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39820509214389E900F3FBA7 /* Noti-Fall2.app */,
+				39820520214389EA00F3FBA7 /* Noti-Fall2Tests.xctest */,
+				3982052B214389EA00F3FBA7 /* Noti-Fall2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3982050B214389E900F3FBA7 /* Noti-Fall2 */ = {
+			isa = PBXGroup;
+			children = (
+				3982050C214389E900F3FBA7 /* AppDelegate.swift */,
+				3982050E214389E900F3FBA7 /* TrackViewController.swift */,
+				392ED9A92144C6D600CC5F3D /* HomeViewController.swift */,
+				392ED9AE2144E35800CC5F3D /* FallCount.swift */,
+				392ED9B02144E8C900CC5F3D /* FallDetect.swift */,
+				39820510214389E900F3FBA7 /* Main.storyboard */,
+				39820516214389EA00F3FBA7 /* Assets.xcassets */,
+				39820518214389EA00F3FBA7 /* LaunchScreen.storyboard */,
+				3982051B214389EA00F3FBA7 /* Info.plist */,
+				39820513214389E900F3FBA7 /* Noti_Fall2.xcdatamodeld */,
+				392ED9B421450D9200CC5F3D /* logo4.png */,
+				392ED9B22144FD0200CC5F3D /* bell.mp3 */,
+			);
+			path = "Noti-Fall2";
+			sourceTree = "<group>";
+		};
+		39820523214389EA00F3FBA7 /* Noti-Fall2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39820524214389EA00F3FBA7 /* Noti_Fall2Tests.swift */,
+				39820526214389EA00F3FBA7 /* Info.plist */,
+			);
+			path = "Noti-Fall2Tests";
+			sourceTree = "<group>";
+		};
+		3982052E214389EA00F3FBA7 /* Noti-Fall2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3982052F214389EA00F3FBA7 /* Noti_Fall2UITests.swift */,
+				39820531214389EA00F3FBA7 /* Info.plist */,
+			);
+			path = "Noti-Fall2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39820508214389E900F3FBA7 /* Noti-Fall2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39820534214389EA00F3FBA7 /* Build configuration list for PBXNativeTarget "Noti-Fall2" */;
+			buildPhases = (
+				39820505214389E900F3FBA7 /* Sources */,
+				39820506214389E900F3FBA7 /* Frameworks */,
+				39820507214389E900F3FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noti-Fall2";
+			productName = "Noti-Fall2";
+			productReference = 39820509214389E900F3FBA7 /* Noti-Fall2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3982051F214389EA00F3FBA7 /* Noti-Fall2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39820537214389EA00F3FBA7 /* Build configuration list for PBXNativeTarget "Noti-Fall2Tests" */;
+			buildPhases = (
+				3982051C214389EA00F3FBA7 /* Sources */,
+				3982051D214389EA00F3FBA7 /* Frameworks */,
+				3982051E214389EA00F3FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39820522214389EA00F3FBA7 /* PBXTargetDependency */,
+			);
+			name = "Noti-Fall2Tests";
+			productName = "Noti-Fall2Tests";
+			productReference = 39820520214389EA00F3FBA7 /* Noti-Fall2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3982052A214389EA00F3FBA7 /* Noti-Fall2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3982053A214389EA00F3FBA7 /* Build configuration list for PBXNativeTarget "Noti-Fall2UITests" */;
+			buildPhases = (
+				39820527214389EA00F3FBA7 /* Sources */,
+				39820528214389EA00F3FBA7 /* Frameworks */,
+				39820529214389EA00F3FBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3982052D214389EA00F3FBA7 /* PBXTargetDependency */,
+			);
+			name = "Noti-Fall2UITests";
+			productName = "Noti-Fall2UITests";
+			productReference = 3982052B214389EA00F3FBA7 /* Noti-Fall2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39820501214389E900F3FBA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Debanik Purkayastha";
+				TargetAttributes = {
+					39820508214389E900F3FBA7 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					3982051F214389EA00F3FBA7 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39820508214389E900F3FBA7;
+					};
+					3982052A214389EA00F3FBA7 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39820508214389E900F3FBA7;
+					};
+				};
+			};
+			buildConfigurationList = 39820504214389E900F3FBA7 /* Build configuration list for PBXProject "Noti-Fall2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39820500214389E900F3FBA7;
+			productRefGroup = 3982050A214389E900F3FBA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39820508214389E900F3FBA7 /* Noti-Fall2 */,
+				3982051F214389EA00F3FBA7 /* Noti-Fall2Tests */,
+				3982052A214389EA00F3FBA7 /* Noti-Fall2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39820507214389E900F3FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3982051A214389EA00F3FBA7 /* LaunchScreen.storyboard in Resources */,
+				392ED9B521450D9200CC5F3D /* logo4.png in Resources */,
+				39820517214389EA00F3FBA7 /* Assets.xcassets in Resources */,
+				39820512214389E900F3FBA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3982051E214389EA00F3FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39820529214389EA00F3FBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392ED9B32144FD0200CC5F3D /* bell.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39820505214389E900F3FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3982050F214389E900F3FBA7 /* TrackViewController.swift in Sources */,
+				392ED9AF2144E35800CC5F3D /* FallCount.swift in Sources */,
+				39820515214389E900F3FBA7 /* Noti_Fall2.xcdatamodeld in Sources */,
+				3982050D214389E900F3FBA7 /* AppDelegate.swift in Sources */,
+				392ED9AA2144C6D600CC5F3D /* HomeViewController.swift in Sources */,
+				392ED9B12144E8C900CC5F3D /* FallDetect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3982051C214389EA00F3FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39820525214389EA00F3FBA7 /* Noti_Fall2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39820527214389EA00F3FBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39820530214389EA00F3FBA7 /* Noti_Fall2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39820522214389EA00F3FBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39820508214389E900F3FBA7 /* Noti-Fall2 */;
+			targetProxy = 39820521214389EA00F3FBA7 /* PBXContainerItemProxy */;
+		};
+		3982052D214389EA00F3FBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39820508214389E900F3FBA7 /* Noti-Fall2 */;
+			targetProxy = 3982052C214389EA00F3FBA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39820510214389E900F3FBA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39820511214389E900F3FBA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39820518214389EA00F3FBA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39820519214389EA00F3FBA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39820532214389EA00F3FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39820533214389EA00F3FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39820535214389EA00F3FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4L47757WW;
+				INFOPLIST_FILE = "Noti-Fall2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DT4.Noti-Fall2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39820536214389EA00F3FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4L47757WW;
+				INFOPLIST_FILE = "Noti-Fall2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DT4.Noti-Fall2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39820538214389EA00F3FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4L47757WW;
+				INFOPLIST_FILE = "Noti-Fall2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DT4.Noti-Fall2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noti-Fall2.app/Noti-Fall2";
+			};
+			name = Debug;
+		};
+		39820539214389EA00F3FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4L47757WW;
+				INFOPLIST_FILE = "Noti-Fall2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DT4.Noti-Fall2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noti-Fall2.app/Noti-Fall2";
+			};
+			name = Release;
+		};
+		3982053B214389EA00F3FBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4L47757WW;
+				INFOPLIST_FILE = "Noti-Fall2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DT4.Noti-Fall2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noti-Fall2";
+			};
+			name = Debug;
+		};
+		3982053C214389EA00F3FBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4L47757WW;
+				INFOPLIST_FILE = "Noti-Fall2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DT4.Noti-Fall2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noti-Fall2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39820504214389E900F3FBA7 /* Build configuration list for PBXProject "Noti-Fall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39820532214389EA00F3FBA7 /* Debug */,
+				39820533214389EA00F3FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39820534214389EA00F3FBA7 /* Build configuration list for PBXNativeTarget "Noti-Fall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39820535214389EA00F3FBA7 /* Debug */,
+				39820536214389EA00F3FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39820537214389EA00F3FBA7 /* Build configuration list for PBXNativeTarget "Noti-Fall2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39820538214389EA00F3FBA7 /* Debug */,
+				39820539214389EA00F3FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3982053A214389EA00F3FBA7 /* Build configuration list for PBXNativeTarget "Noti-Fall2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3982053B214389EA00F3FBA7 /* Debug */,
+				3982053C214389EA00F3FBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39820513214389E900F3FBA7 /* Noti_Fall2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39820514214389E900F3FBA7 /* Noti_Fall2.xcdatamodel */,
+			);
+			currentVersion = 39820514214389E900F3FBA7 /* Noti_Fall2.xcdatamodel */;
+			path = Noti_Fall2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39820501214389E900F3FBA7 /* Project object */;
+}
